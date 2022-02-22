@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Main-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./Glider.js-master/glider.min.css">
+</head>
+
+<body>
+    <!-- Start your project here-->
+
+    <div class="container-fluid ">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container">
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                        <img src="img/logo.png" width="176" height="80" alt="MDB Logo" loading="lazy" />
+                    </a>
+                    <!-- Left links -->
+                    <div class="banniere"></div>
+                    <ul class="navbar-nav justify-content-around me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-link form-group">
+                            <input class="form-control search" placeholder="Search" type="text">
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+
+                <!-- Right elements -->
+                <div class="d-flex justify-content-around align-items-center panier">
+                    <!-- Icon -->
+                    <!--<a class="text-reset me-3" href="#">
+                        <i style="color: #262626;" class="fas fa-shopping-cart bot_search"></i>
+                    </a>
+                    -->
+                    <!-- Icon -->
+                    <a class="text-reset me-3" href="#">
+                        <i style="color: #262626;" class="fas fa-shopping-cart"></i>
+                    </a>
+
+                    <!-- Notifications -->
+                    <!-- Avatar -->
+                    <div class="dropdown">
+                        <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                            <i style="color: #262626;" class="fas fa-user"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                            <li>
+                                <a class="dropdown-item" href="#">Login/Register</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Currency</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">English</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Right elements -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+        <!-- logo-->
+        <div class="logo">
+            <img src="img/logo.png" width="176" height="80" alt="MDB Logo" loading="lazy">
+        </div>
+        <section class="section">
+            <div class="card-1">
+                <img src="./img/banner1-2.jpg" class="img-fluid" />
+            </div>
+            <div class="section-carousel">
+                <div class="carousel-icon">
+                    <i class="fas fa-arrow-left"></i>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="carousel-items">
+                    <div class="carousel-item first">
+                        <div>
+                            <img src="./img/1-1.jpg" alt="">
+
+                            <!--
+                          <div class="carousel-desc">
+                            <p class="carousel-title">Tout ce dont vous avez besoin ici.</p>
+                            <button class="carousel-button">Contactez-nous</button> 
+                          </div> 
+                        -->
+                        </div>
+                    </div>
+                    <div class="carousel-item second">
+                        <div>
+                            <img src="./img/1-1.jpg" alt="">
+
+                            <!--
+                             <div class="carousel-desc">
+                              <p class="carousel-title">Tout ce dont vous avez besoin ici.</p>
+                              <button class="carousel-button">Contactez-nous</button>
+                            </div>
+                          -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-2">
+                <img src="./img/banner2-2.jpg" class="img-fluid" />
+            </div>
+        </section>
+
+        <article class="p-slider" style="margin-bottom: 80px;">
+            <div class="slider-btns">
+                <button aria-label="Previous" class="glider-prev">
+                    <span></span>
+                </button>
+                <button aria-label="Next" class="glider-next">
+                    <span></span>
+                </button>
+            </div>
+
+            <div class="glider-contain">
+                <div class="glider">
+                    <div class="product-box">
+                        <span class="p-discount">-20%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="./img/banner3.png" alt="" class="p-img-front">
+                                    <img src="./img/banner3.png" alt="" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>MoterBike</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Lorem ipsum dolor sit amet
+                            </a>
+
+                            <div class="price-buy">
+                                <span class="p-price">1200$</span>
+                                <a href="#" class="p-buy-btn">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-20%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="./img/banner5.png" alt="" class="p-img-front">
+                                    <img src="./img/banner5.png" alt="" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>MoterBike</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Lorem ipsum dolor sit amet
+                            </a>
+
+                            <div class="price-buy">
+                                <span class="p-price">1200$</span>
+                                <a href="#" class="p-buy-btn">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-20%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="./img/banner4.png" alt="" class="p-img-front">
+                                    <img src="./img/banner4.png" alt="" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>MoterBike</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Lorem ipsum dolor sit amet
+                            </a>
+
+                            <div class="price-buy">
+                                <span class="p-price">1200$</span>
+                                <a href="#" class="p-buy-btn">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-20%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="./img/banner3.png" alt="" class="p-img-front">
+                                    <img src="./img/banner3.png" alt="" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>MoterBike</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Lorem ipsum dolor sit amet
+                            </a>
+
+                            <div class="price-buy">
+                                <span class="p-price">1200$</span>
+                                <a href="#" class="p-buy-btn">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-20%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="./img/banner1-2.jpg" alt="" class="p-img-front">
+                                    <img src="./img/banner1-2.jpg" alt="" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>MoterBike</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Lorem ipsum dolor sit amet
+                            </a>
+
+                            <div class="price-buy">
+                                <span class="p-price">1200$</span>
+                                <a href="#" class="p-buy-btn">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-box">
+                        <span class="p-discount">-20%</span>
+                        <div class="p-img-container">
+                            <div class="p-img">
+                                <a href="#">
+                                    <img src="./img/banner2-2.jpg" alt="" class="p-img-front">
+                                    <img src="./img/banner2-2.jpg" alt="" class="p-img-back">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="p-box-text">
+                            <div class="product-category">
+                                <span>MoterBike</span>
+                            </div>
+                            <a href="#" class="product-title">
+                                Lorem ipsum dolor sit amet
+                            </a>
+
+                            <div class="price-buy">
+                                <span class="p-price">1200$</span>
+                                <a href="#" class="p-buy-btn">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--
+                    <button aria-label="Previous" class="glider-prev">«</button>
+                    <button aria-label="Next" class="glider-next">»</button>
+                -->
+            </div>
+        </article>
+
+        <!-- End your project here-->
+        <div class="main">
+            <div class="container sale">
+                <div class="sale1">
+                    <img src="img/image43.png" alt="image43">
+                </div>
+                <div class="sale2">
+                    <img src="img/image44.png" alt="image44">
+                </div>
+            </div>
+            <div class="container sous-sale">
+                <div class="text1">
+                    <div class="text11">
+                        <h3>Organic Pure</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+                    </div>
+                    <div class="text12">
+                        <h3>Safe Package</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+                    </div>
+                </div>
+                <div class="textimg">
+                    <img src="img/banner3.png" alt="banner3">
+                </div>
+                <div class="text2">
+                    <div class="text21">
+                        <h3>Organic Pure</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+                    </div>
+                    <div class="text22">
+                        <h3>Safe Package</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-section" style="margin-bottom: 80px;">
+                <section class="section card1">
+                    <div class="section-carousel">
+                        <div class="carousel-icon">
+                            <i class="fas fa-arrow-left"></i>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="carousel-items">
+                            <div class="carousel-item first">
+                                <div>
+
+                                    <h3>Beauty Natural Cosmetic</h3>
+                                    <h1>What's client say ?</h1>
+                                    <img src="./img/1-1.jpg" alt="">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, Donec nec justo consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+                                    </p>
+                                    <div class="name">
+                                        <h1>Mrs. Orla</h1>
+                                        <h3>CEO of TheeFTc</h4>
+                                    </div>
+                                    <!--
+                                  <div class="carousel-desc">
+                                       <img src="./img/1-1.jpg" alt=""> 
+                                    <p class="carousel-title">Tout ce dont vous avez besoin ici.</p>
+                                    <button class="carousel-button">Contactez-nous</button> 
+                                  </div> 
+                                -->
+                                </div>
+                            </div>
+                            <div class="carousel-item second">
+                                <div>
+                                    <h3>Beauty Natural Cosmetic</h3>
+                                    <h1>What's client say ?</h1>
+                                    <img src="./img/1-1.jpg" alt="">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, Donec nec justo consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+                                    </p>
+                                    <div class="name">
+                                        <h1>Mrs. Orla</h1>
+                                        <h3>CEO of TheeFTc</h4>
+                                    </div>
+
+                                    <!--
+                                     <div class="carousel-desc">
+                                      <p class="carousel-title">Tout ce dont vous avez besoin ici.</p>
+                                      <button class="carousel-button">Contactez-nous</button>
+                                    </div>
+                                  -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+            <div class="container rose">
+                <div class="rose1">
+                    <div class="rose11">
+                        <p>Natural cosmetics</p>
+                        <h3>Rose Mineral Cream</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias maxime vero eligendi suscipit aliquam voluptas laborum fugiat, nam nemo non ut reprehenderit sed iste mollitia vel! Est neque esse excepturi?</p>
+                    </div>
+                    <div class="rose12">
+                        <img src="img/banner4.png" height="205" alt="banner4">
+                    </div>
+                </div>
+                <div class="rose2">
+                    <div class="rose22">
+                        <img src="img/banner5.png" alt="banner4">
+                    </div>
+                    <div class="rose11">
+                        <p>Natural cosmetics</p>
+                        <h3>Makeup Brush</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias maxime vero eligendi suscipit aliquam voluptas laborum fugiat, nam nemo non ut reprehenderit sed iste mollitia vel! Est neque esse excepturi?</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <article class="p-slider">
+
+
+                <div class="glider-contain">
+                    <div class="glider">
+                        <div class="product-box">
+                            <span class="p-discount">-20%</span>
+                            <div class="p-img-container">
+                                <div class="p-img">
+                                    <a href="#">
+                                        <img src="./img/banner3.png" alt="" class="p-img-front">
+                                        <img src="./img/banner3.png" alt="" class="p-img-back">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-box-text">
+                                <div class="product-category">
+                                    <span>MoterBike</span>
+                                </div>
+                                <a href="#" class="product-title">
+                                    Lorem ipsum dolor sit amet
+                                </a>
+
+                                <div class="price-buy">
+                                    <span class="p-price">1200$</span>
+                                    <a href="#" class="p-buy-btn">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-box">
+                            <span class="p-discount">-20%</span>
+                            <div class="p-img-container">
+                                <div class="p-img">
+                                    <a href="#">
+                                        <img src="./img/banner5.png" alt="" class="p-img-front">
+                                        <img src="./img/banner5.png" alt="" class="p-img-back">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-box-text">
+                                <div class="product-category">
+                                    <span>MoterBike</span>
+                                </div>
+                                <a href="#" cla ss="product-title">
+                                    Lorem ipsum dolor sit amet
+                                </a>
+
+                                <div class="price-buy">
+                                    <span class="p-price">1200$</span>
+                                    <a href="#" class="p-buy-btn">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-box">
+                            <span class="p-discount">-20%</span>
+                            <div class="p-img-container">
+                                <div class="p-img">
+                                    <a href="#">
+                                        <img src="./img/banner4.png" alt="" class="p-img-front">
+                                        <img src="./img/banner4.png" alt="" class="p-img-back">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-box-text">
+                                <div class="product-category">
+                                    <span>MoterBike</span>
+                                </div>
+                                <a href="#" class="product-title">
+                                    Lorem ipsum dolor sit amet
+                                </a>
+
+                                <div class="price-buy">
+                                    <span class="p-price">1200$</span>
+                                    <a href="#" class="p-buy-btn">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-box">
+                            <span class="p-discount">-20%</span>
+                            <div class="p-img-container">
+                                <div class="p-img">
+                                    <a href="#">
+                                        <img src="./img/banner3.png" alt="" class="p-img-front">
+                                        <img src="./img/banner3.png" alt="" class="p-img-back">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-box-text">
+                                <div class="product-category">
+                                    <span>MoterBike</span>
+                                </div>
+                                <a href="#" class="product-title">
+                                    Lorem ipsum dolor sit amet
+                                </a>
+
+                                <div class="price-buy">
+                                    <span class="p-price">1200$</span>
+                                    <a href="#" class="p-buy-btn">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-box">
+                            <span class="p-discount">-20%</span>
+                            <div class="p-img-container">
+                                <div class="p-img">
+                                    <a href="#">
+                                        <img src="./img/banner1-2.jpg" alt="" class="p-img-front">
+                                        <img src="./img/banner1-2.jpg" alt="" class="p-img-back">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-box-text">
+                                <div class="product-category">
+                                    <span>MoterBike</span>
+                                </div>
+                                <a href="#" class="product-title">
+                                    Lorem ipsum dolor sit amet
+                                </a>
+
+                                <div class="price-buy">
+                                    <span class="p-price">1200$</span>
+                                    <a href="#" class="p-buy-btn">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-box">
+                            <span class="p-discount">-20%</span>
+                            <div class="p-img-container">
+                                <div class="p-img">
+                                    <a href="#">
+                                        <img src="./img/banner2-2.jpg" alt="" class="p-img-front">
+                                        <img src="./img/banner2-2.jpg" alt="" class="p-img-back">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="p-box-text">
+                                <div class="product-category">
+                                    <span>MoterBike</span>
+                                </div>
+                                <a href="#" class="product-title">
+                                    Lorem ipsum dolor sit amet
+                                </a>
+
+                                <div class="price-buy">
+                                    <span class="p-price">1200$</span>
+                                    <a href="#" class="p-buy-btn">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--
+                        <button aria-label="Previous" class="glider-prev">«</button>
+                        <button aria-label="Next" class="glider-next">»</button>
+                    -->
+                </div>
+            </article>
+
+            <div class="card-section" style="margin-top: 90px !important;">
+                <section class="section card1">
+                    <div class="section-carousel">
+                        <div class="carousel-icon">
+                            <i class="fas fa-arrow-left"></i>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="carousel-items">
+                            <div class="carousel-item first">
+                                <div>
+
+                                    <h3>Beauty Natural Cosmetic</h3>
+                                    <h1>What's client say ?</h1>
+                                    <img src="./img/1-1.jpg" alt="">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, Donec nec justo consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+                                    </p>
+                                    <div class="name">
+                                        <h1>Mrs. Orla</h1>
+                                        <h3>CEO of TheeFTc</h4>
+                                    </div>
+                                    <!--
+                                  <div class="carousel-desc">
+                                       <img src="./img/1-1.jpg" alt=""> 
+                                    <p class="carousel-title">Tout ce dont vous avez besoin ici.</p>
+                                    <button class="carousel-button">Contactez-nous</button> 
+                                  </div> 
+                                -->
+                                </div>
+                            </div>
+                            <div class="carousel-item second">
+                                <div>
+                                    <h3>Beauty Natural Cosmetic</h3>
+                                    <h1>What's client say ?</h1>
+                                    <img src="./img/1-1.jpg" alt="">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, Donec nec justo consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+                                    </p>
+                                    <div class="name">
+                                        <h1>Mrs. Orla</h1>
+                                        <h3>CEO of TheeFTc</h4>
+                                    </div>
+
+                                    <!--
+                                     <div class="carousel-desc">
+                                      <p class="carousel-title">Tout ce dont vous avez besoin ici.</p>
+                                      <button class="carousel-button">Contactez-nous</button>
+                                    </div>
+                                  -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="container design">
+                <div class="design1">
+                    <img src="img/logo4.jpg" alt="logo4">
+                </div>
+                <div class="design2">
+                    <img src="img/logo3.jpg" alt="">
+                </div>
+                <div class="design3">
+                    <img src="img/logo1.jpg" alt="">
+                </div>
+                <div class="design4">
+                    <img src="img/logo2.png" alt="">
+                </div>
+                <div class="design5">
+                    <img src="img/logo4.jpg" alt="">
+                </div>
+                <div class="design6">
+                    <img src="img/logo3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!-- End your project here-->
+    <footer class="bg-dark text-center text-white ">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i
+            ></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i
+            ></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i
+            ></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i
+            ></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i
+            ></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i
+            ></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="./Glider.js-master/glider.min.js"></script>
+    <script type="text/javascript"></script>
+    <script src="js/style.js"></script>
+
+</body>
+
+</html>
